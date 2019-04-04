@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D55C33A8224DB28100682755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55C33A7224DB28100682755 /* AppDelegate.swift */; };
+		D55C33AA224DB28100682755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55C33A9224DB28100682755 /* ViewController.swift */; };
+		D55C33AD224DB28100682755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55C33AB224DB28100682755 /* Main.storyboard */; };
+		D55C33B0224DB28100682755 /* NJITNFCApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D55C33AE224DB28100682755 /* NJITNFCApp.xcdatamodeld */; };
+		D55C33B2224DB28300682755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55C33B1224DB28300682755 /* Assets.xcassets */; };
+		D55C33B5224DB28300682755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55C33B3224DB28300682755 /* LaunchScreen.storyboard */; };
+		D55C33C0224DB28300682755 /* NJITNFCAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55C33BF224DB28300682755 /* NJITNFCAppTests.swift */; };
+		D55C33CB224DB28300682755 /* NJITNFCAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55C33CA224DB28300682755 /* NJITNFCAppUITests.swift */; };
+		D55C33DB224DB2B700682755 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55C33DA224DB2B700682755 /* ExternalAccessory.framework */; };
+		D5AEA74A22513E19000BCE9B /* nfc_1326.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AEA74922513E19000BCE9B /* nfc_1326.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D55C33BC224DB28300682755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D55C339C224DB28100682755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55C33A3224DB28100682755;
+			remoteInfo = NJITNFCApp;
+		};
+		D55C33C7224DB28300682755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D55C339C224DB28100682755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55C33A3224DB28100682755;
+			remoteInfo = NJITNFCApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D55C33A4224DB28100682755 /* NJITNFCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJITNFCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55C33A7224DB28100682755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D55C33A9224DB28100682755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D55C33AC224DB28100682755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D55C33AF224DB28100682755 /* NJITNFCApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJITNFCApp.xcdatamodel; sourceTree = "<group>"; };
+		D55C33B1224DB28300682755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D55C33B4224DB28300682755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D55C33B6224DB28300682755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55C33BB224DB28300682755 /* NJITNFCAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJITNFCAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55C33BF224DB28300682755 /* NJITNFCAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJITNFCAppTests.swift; sourceTree = "<group>"; };
+		D55C33C1224DB28300682755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55C33C6224DB28300682755 /* NJITNFCAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJITNFCAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55C33CA224DB28300682755 /* NJITNFCAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJITNFCAppUITests.swift; sourceTree = "<group>"; };
+		D55C33CC224DB28300682755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55C33D8224DB28E00682755 /* NJITNFCApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NJITNFCApp.entitlements; sourceTree = "<group>"; };
+		D55C33DA224DB2B700682755 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		D5AEA74922513E19000BCE9B /* nfc_1326.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfc_1326.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D55C33A1224DB28100682755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55C33DB224DB2B700682755 /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55C33B8224DB28300682755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55C33C3224DB28300682755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D55C339B224DB28100682755 = {
+			isa = PBXGroup;
+			children = (
+				D55C33A6224DB28100682755 /* NJITNFCApp */,
+				D55C33BE224DB28300682755 /* NJITNFCAppTests */,
+				D55C33C9224DB28300682755 /* NJITNFCAppUITests */,
+				D55C33A5224DB28100682755 /* Products */,
+				D55C33D9224DB2B700682755 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D55C33A5224DB28100682755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D55C33A4224DB28100682755 /* NJITNFCApp.app */,
+				D55C33BB224DB28300682755 /* NJITNFCAppTests.xctest */,
+				D55C33C6224DB28300682755 /* NJITNFCAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D55C33A6224DB28100682755 /* NJITNFCApp */ = {
+			isa = PBXGroup;
+			children = (
+				D55C33D8224DB28E00682755 /* NJITNFCApp.entitlements */,
+				D55C33A7224DB28100682755 /* AppDelegate.swift */,
+				D55C33A9224DB28100682755 /* ViewController.swift */,
+				D55C33AB224DB28100682755 /* Main.storyboard */,
+				D55C33B1224DB28300682755 /* Assets.xcassets */,
+				D5AEA74922513E19000BCE9B /* nfc_1326.png */,
+				D55C33B3224DB28300682755 /* LaunchScreen.storyboard */,
+				D55C33B6224DB28300682755 /* Info.plist */,
+				D55C33AE224DB28100682755 /* NJITNFCApp.xcdatamodeld */,
+			);
+			path = NJITNFCApp;
+			sourceTree = "<group>";
+		};
+		D55C33BE224DB28300682755 /* NJITNFCAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D55C33BF224DB28300682755 /* NJITNFCAppTests.swift */,
+				D55C33C1224DB28300682755 /* Info.plist */,
+			);
+			path = NJITNFCAppTests;
+			sourceTree = "<group>";
+		};
+		D55C33C9224DB28300682755 /* NJITNFCAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D55C33CA224DB28300682755 /* NJITNFCAppUITests.swift */,
+				D55C33CC224DB28300682755 /* Info.plist */,
+			);
+			path = NJITNFCAppUITests;
+			sourceTree = "<group>";
+		};
+		D55C33D9224DB2B700682755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D55C33DA224DB2B700682755 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D55C33A3224DB28100682755 /* NJITNFCApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55C33CF224DB28300682755 /* Build configuration list for PBXNativeTarget "NJITNFCApp" */;
+			buildPhases = (
+				D55C33A0224DB28100682755 /* Sources */,
+				D55C33A1224DB28100682755 /* Frameworks */,
+				D55C33A2224DB28100682755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJITNFCApp;
+			productName = NJITNFCApp;
+			productReference = D55C33A4224DB28100682755 /* NJITNFCApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D55C33BA224DB28300682755 /* NJITNFCAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55C33D2224DB28300682755 /* Build configuration list for PBXNativeTarget "NJITNFCAppTests" */;
+			buildPhases = (
+				D55C33B7224DB28300682755 /* Sources */,
+				D55C33B8224DB28300682755 /* Frameworks */,
+				D55C33B9224DB28300682755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D55C33BD224DB28300682755 /* PBXTargetDependency */,
+			);
+			name = NJITNFCAppTests;
+			productName = NJITNFCAppTests;
+			productReference = D55C33BB224DB28300682755 /* NJITNFCAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D55C33C5224DB28300682755 /* NJITNFCAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55C33D5224DB28300682755 /* Build configuration list for PBXNativeTarget "NJITNFCAppUITests" */;
+			buildPhases = (
+				D55C33C2224DB28300682755 /* Sources */,
+				D55C33C3224DB28300682755 /* Frameworks */,
+				D55C33C4224DB28300682755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D55C33C8224DB28300682755 /* PBXTargetDependency */,
+			);
+			name = NJITNFCAppUITests;
+			productName = NJITNFCAppUITests;
+			productReference = D55C33C6224DB28300682755 /* NJITNFCAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D55C339C224DB28100682755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = PeterB;
+				TargetAttributes = {
+					D55C33A3224DB28100682755 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+					D55C33BA224DB28300682755 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = D55C33A3224DB28100682755;
+					};
+					D55C33C5224DB28300682755 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = D55C33A3224DB28100682755;
+					};
+				};
+			};
+			buildConfigurationList = D55C339F224DB28100682755 /* Build configuration list for PBXProject "NJITNFCApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D55C339B224DB28100682755;
+			productRefGroup = D55C33A5224DB28100682755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D55C33A3224DB28100682755 /* NJITNFCApp */,
+				D55C33BA224DB28300682755 /* NJITNFCAppTests */,
+				D55C33C5224DB28300682755 /* NJITNFCAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D55C33A2224DB28100682755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5AEA74A22513E19000BCE9B /* nfc_1326.png in Resources */,
+				D55C33B5224DB28300682755 /* LaunchScreen.storyboard in Resources */,
+				D55C33B2224DB28300682755 /* Assets.xcassets in Resources */,
+				D55C33AD224DB28100682755 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55C33B9224DB28300682755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55C33C4224DB28300682755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D55C33A0224DB28100682755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55C33AA224DB28100682755 /* ViewController.swift in Sources */,
+				D55C33A8224DB28100682755 /* AppDelegate.swift in Sources */,
+				D55C33B0224DB28100682755 /* NJITNFCApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55C33B7224DB28300682755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55C33C0224DB28300682755 /* NJITNFCAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55C33C2224DB28300682755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55C33CB224DB28300682755 /* NJITNFCAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D55C33BD224DB28300682755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D55C33A3224DB28100682755 /* NJITNFCApp */;
+			targetProxy = D55C33BC224DB28300682755 /* PBXContainerItemProxy */;
+		};
+		D55C33C8224DB28300682755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D55C33A3224DB28100682755 /* NJITNFCApp */;
+			targetProxy = D55C33C7224DB28300682755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D55C33AB224DB28100682755 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55C33AC224DB28100682755 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D55C33B3224DB28300682755 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55C33B4224DB28300682755 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D55C33CD224DB28300682755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D55C33CE224DB28300682755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D55C33D0224DB28300682755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NJITNFCApp/NJITNFCApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR2HPMNK5R;
+				INFOPLIST_FILE = NJITNFCApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeterB.NJITNFCApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D55C33D1224DB28300682755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NJITNFCApp/NJITNFCApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR2HPMNK5R;
+				INFOPLIST_FILE = NJITNFCApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeterB.NJITNFCApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D55C33D3224DB28300682755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR2HPMNK5R;
+				INFOPLIST_FILE = NJITNFCAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeterB.NJITNFCAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJITNFCApp.app/NJITNFCApp";
+			};
+			name = Debug;
+		};
+		D55C33D4224DB28300682755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR2HPMNK5R;
+				INFOPLIST_FILE = NJITNFCAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeterB.NJITNFCAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJITNFCApp.app/NJITNFCApp";
+			};
+			name = Release;
+		};
+		D55C33D6224DB28300682755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR2HPMNK5R;
+				INFOPLIST_FILE = NJITNFCAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeterB.NJITNFCAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NJITNFCApp;
+			};
+			name = Debug;
+		};
+		D55C33D7224DB28300682755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR2HPMNK5R;
+				INFOPLIST_FILE = NJITNFCAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeterB.NJITNFCAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NJITNFCApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D55C339F224DB28100682755 /* Build configuration list for PBXProject "NJITNFCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55C33CD224DB28300682755 /* Debug */,
+				D55C33CE224DB28300682755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55C33CF224DB28300682755 /* Build configuration list for PBXNativeTarget "NJITNFCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55C33D0224DB28300682755 /* Debug */,
+				D55C33D1224DB28300682755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55C33D2224DB28300682755 /* Build configuration list for PBXNativeTarget "NJITNFCAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55C33D3224DB28300682755 /* Debug */,
+				D55C33D4224DB28300682755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55C33D5224DB28300682755 /* Build configuration list for PBXNativeTarget "NJITNFCAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55C33D6224DB28300682755 /* Debug */,
+				D55C33D7224DB28300682755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D55C33AE224DB28100682755 /* NJITNFCApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D55C33AF224DB28100682755 /* NJITNFCApp.xcdatamodel */,
+			);
+			currentVersion = D55C33AF224DB28100682755 /* NJITNFCApp.xcdatamodel */;
+			path = NJITNFCApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D55C339C224DB28100682755 /* Project object */;
+}
