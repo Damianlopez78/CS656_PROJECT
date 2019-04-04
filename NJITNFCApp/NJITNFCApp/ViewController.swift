@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         guard nfcSession == nil else {
             return
         }
-     
+        
         nfcSession = NFCNDEFReaderSession(delegate: self as NFCNDEFReaderSessionDelegate, queue: nil, invalidateAfterFirstRead: true)
         nfcSession?.alertMessage = "NJIT NFC Scanner \n\n Please hold top of device near NFC tag"
         nfcSession?.begin()
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: NFCNDEFReaderSessionDelegate {
-        
+    
         //Below comes from Apple CoreNFC Documentation used to initiate NFC Reading
         func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
 
